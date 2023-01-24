@@ -7,8 +7,9 @@ bt.max.hfpclient.connections=1
 vendor.bluetooth.soc=cherokee
 
 # Camera
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam
-persist.camera.privapp.list=org.codeaurora.snapcam
+persist.vendor.camera.privapp.list=com.android.camera2
+persist.camera.privapp.list=com.android.camera2
+vendor.camera.aux.packagelist=com.android.camera2,org.lineageos.aperture
 
 # CNE
 persist.vendor.cne.feature=1
